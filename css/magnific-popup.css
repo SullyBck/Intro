@@ -1,3 +1,57 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.popup .prev, .popup .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.popup .prev:hover, .popup .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.popup .prev {
+  left: 10px;
+}
+
+.popup .next {
+  right: 10px;
+}
+
 /* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
