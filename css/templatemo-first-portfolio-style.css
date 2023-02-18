@@ -153,7 +153,13 @@ strong {
 .section-title-wrap2 {
   background: var(--primary-color);
   border-radius: var(--border-radius-small);
-  padding: 10px 30px;
+  padding: 5px 30px;
+}
+
+.section-title-wrap3 {
+  background: #fff;
+  border-radius: var(--border-radius-small);
+  padding: 5px 30px;
 }
 
 
