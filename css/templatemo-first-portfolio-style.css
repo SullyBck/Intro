@@ -941,7 +941,10 @@ strong {
   color: var(--p-color);
   display: block;
   font-size: copyright-font-size;
-  margin-top: 5px;
+  margin-top: 0px;
+  display:inline-block; 
+  vertical-align:top; 
+  line-height:0;5;
 }
 
 .form-check-input[type=checkbox] {
