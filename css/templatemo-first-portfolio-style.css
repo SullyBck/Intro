@@ -44,7 +44,6 @@ body {
 
 h3,
 h4,
-h5,
 h6 {
   color: var(--dark-color);
 }
@@ -1327,3 +1326,4 @@ strong {
   color: #fff;
   padding: 10px;
 }
+

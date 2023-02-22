@@ -26,15 +26,17 @@
 
         <link href="../css/animation.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        
         <link href="../css/templatemo-first-portfolio-style.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-
         <!-- Inclure les fichiers CSS et JS de Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">      
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <link href="../css/button.css" rel="stylesheet">
 
         <link rel="icon" href="../favicon.ico" />
 
@@ -48,116 +50,151 @@
             </div>
         </section>
 
+        <!--barre de navigation-->
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a href="../index.html#informatique" class="nav2 mx-auto">Retour</a>
-            </div>
+          <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <a href="../index.html#informatique" class="nav2 navbar-brand mx-auto mx-lg-0">Retour</a>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-lg-5">
+                      <li class="nav-item">
+                          <a class="nav-link click-scroll" href="">Informatique - Stockage</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
         </nav>
 
-        <main>
+        <main>   
             <section class="hero d-flex justify-content-center align-items-center" id="accueil">
+              <section class="hero d-flex justify-content-center align-items-center" id="accueil">
                 <div class="container">
                     <div class="row">
                         <div class="d-flex justify-content-center align-items-center mb-0">
+                      
+                      <!--texte-->
+                      <div class="col-lg-6 col-12">
+                        <div class="informatique-thumb informatique-thumb-up">
+                            <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                <h3 class="mb-0">Stockage</h3>
 
-                            <!--carousel-->
-                            <div id="carousel" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel" data-slide-to="1"></li>
-                                    <li data-target="#carousel" data-slide-to="2"></li>
-                                    <li data-target="#carousel" data-slide-to="3"></li>
-                                    <li data-target="#carousel" data-slide-to="4"></li>
-                                    <li data-target="#carousel" data-slide-to="5"></li>
-                                    <li data-target="#carousel" data-slide-to="6"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                      <div class="image-caption-container">
-                                        <img class="d-block w-100 img-fluid" src="stockage/1.jpg" alt="First slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                          <h5>Ancien SSD</h5>
-                                          <p1>1</p1>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                      <div class="image-caption-container">
-                                        <img class="d-block w-100 img-fluid" src="stockage/2.jpg" alt="Second slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                          <h5>Nouveau SSD</h5>
-                                          <p1>2</p1>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                      <div class="image-caption-container">
-                                        <img class="d-block w-100 img-fluid" src="stockage/3.jpg" alt="Third slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                          <h5>Sur PC portable</h5>
-                                          <p1>3</p1>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="image-caption-container">
-                                          <img class="d-block w-100 img-fluid" src="stockage/4.jpg" alt="4th slide">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>plus de stockage</h5>
-                                            <p1>4</p1>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="carousel-item">
-                                        <div class="image-caption-container">
-                                          <img class="d-block w-100 img-fluid" src="stockage/5.jpg" alt="5th slide">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>Nouveau HDD</h5>
-                                            <p1>5</p1>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="carousel-item">
-                                        <div class="image-caption-container">
-                                          <img class="d-block w-100 img-fluid" src="stockage/6.jpg" alt="6th slide">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>Disque dur PC fixe</h5>
-                                            <p1>6</p1>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="carousel-item">
-                                        <div class="image-caption-container">
-                                          <img class="d-block w-100 img-fluid" src="stockage/7.jpg" alt="7th slide">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>Multi-SSD</h5>
-                                            <p1>7</p1>
-                                          </div>
-                                        </div>
-                                      </div>
+                                <div class="informatique-price-wrap ms-auto">
+                                    <p class="informatique-price-text mb-0">00€</p>
+                                    <div class="informatique-price-overlay"></div>
                                 </div>
-                                  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                  </a>
-                                  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                  </a>
                             </div>
-                                  
+
+                            <p>Besoin de plus d'espace de stockage ? Un changement de disque dur ? C'est dans<br> mes cordes !</p>
+
+                            <a href="../index.html#contact" class="custom-btn custom-border-btn btn mt-3">Contact</a>
+
+                            <div class="informatique-icon-wrap d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-hard-drive"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                      <!--carousel-->
+                      <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                            <li data-target="#carousel" data-slide-to="4"></li>
+                            <li data-target="#carousel" data-slide-to="5"></li>
+                            <li data-target="#carousel" data-slide-to="6"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="image-caption-container">
+                                <img class="d-block w-100 img-fluid" src="stockage/1.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Ancien SSD</h5>
+                                  <p1>1</p1>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="image-caption-container">
+                                <img class="d-block w-100 img-fluid" src="stockage/2.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Nouveau SSD</h5>
+                                  <p1>2</p1>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="image-caption-container">
+                                <img class="d-block w-100 img-fluid" src="stockage/3.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Sur PC portable</h5>
+                                  <p1>3</p1>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="image-caption-container">
+                                  <img class="d-block w-100 img-fluid" src="stockage/4.jpg" alt="4th slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>plus de stockage</h5>
+                                    <p1>4</p1>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="image-caption-container">
+                                  <img class="d-block w-100 img-fluid" src="stockage/5.jpg" alt="5th slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Nouveau HDD</h5>
+                                    <p1>5</p1>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="image-caption-container">
+                                  <img class="d-block w-100 img-fluid" src="stockage/6.jpg" alt="6th slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Disque dur PC fixe</h5>
+                                    <p1>6</p1>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="image-caption-container">
+                                  <img class="d-block w-100 img-fluid" src="stockage/7.jpg" alt="7th slide">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Multi-SSD</h5>
+                                    <p1>7</p1>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>                             
                             <!-- Initialiser le carousel en JavaScript -->
                             <script>
                                 $(document).ready(function() {
                                   $('#carousel').carousel();
                                 });
-                              </script>
-
+                            </script>
+                        </div>
                         </div>
                     </div>
-                </div>                  
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#535da1" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
+                </div>
+              </section>
             </section>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#535da1" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
         </main>
 
         <!-- JAVASCRIPT FILES -->
