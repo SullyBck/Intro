@@ -1,12 +1,3 @@
-/*
-
-TemplateMo 578 First Portfolio
-
-https://templatemo.com/tm-578-first-portfolio
-
-*/
-
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -943,8 +934,7 @@ strong {
   font-size: copyright-font-size;
   margin-top: 0px;
   display:inline-block; 
-  vertical-align:top; 
-  line-height:0;5;
+  line-height:0;
 }
 
 .form-check-input[type=checkbox] {
@@ -1299,3 +1289,41 @@ strong {
   }
 }
 
+/*---------------------------------------
+  CAROUSEL               
+-----------------------------------------*/
+.carousel {
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 22;
+  top: -75px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  }
+
+.nav2 {
+  color:#000000;
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-bold);
+}
+
+.nav2:hover{
+  color: #14B789;
+}
+
+.image-caption-container {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}
