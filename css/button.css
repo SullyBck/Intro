@@ -211,12 +211,24 @@
 }
 
 body {
-  background : var(--primary-color); /* Couleur de fond de remplacement */
+  background : var(--primary-color);
   overflow: hidden;
 }
 
 @media screen and (max-width: 480px) {
   body {
+    background : var(--primary-color);
     overflow: auto;
   }
+
+  .carousel {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  a {
+    color:white;
+  }
+
 }
