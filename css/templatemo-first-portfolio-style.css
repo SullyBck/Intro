@@ -98,7 +98,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -112,6 +112,17 @@ a {
 a:hover {
   color: var(--secondary-color);
 }
+
+.a1 {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.a1:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 
 ::selection {
   background: var(--secondary-color);
@@ -740,8 +751,13 @@ strong {
 .informatique-thumb-up {
   position: relative;
   margin-top: -40px;
+  margin-bottom: 20px;
 }
 
+.informatique-thumb-up2 {
+  position: relative;
+  margin-top: -40px;
+}
 
 .informatique-thumb:hover {
   border: 2px solid var(--secondary-color);
@@ -1012,7 +1028,7 @@ strong {
   margin-right: 20px;
 }
 
-.copyright-text-wrap a {
+.copyright-text-wrap a a2 {
   font-weight: var(--font-weight-bold);
 }
 
@@ -1291,6 +1307,7 @@ strong {
   .informatique-thumb-up {
     position: relative;
     margin-top: 20px;
+    margin-bottom: 60px;
   }
 
   .projects-thumb iframe {
