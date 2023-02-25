@@ -774,18 +774,22 @@ strong {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-small);
   position: absolute;
-  bottom: 0;
   right: 0;
-  width: 50%;
-  height: 55%;
-  transform: rotate(-35deg) translateY(55px);
+  bottom: 0;
+  width: 30%;
+  height: 35%;
   transition: all ease 0.5s;
 }
 
+.informatique-thumb p {
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+
 .fa-solid {
-  font-size: 90px;
+  font-size: 80px;
   position: relative;
-  bottom: 15px;
+  bottom: 0;
 }
 
 .informatique-thumb:hover .informatique-icon-wrap {
@@ -1355,3 +1359,6 @@ strong {
   padding: 10px;
 }
 
+.parent-div {
+bottom: 50px;
+}
