@@ -567,7 +567,7 @@ strong {
 
 .profile-small-title {
   border-right: 1px solid var(--border-color);
-  color: var(--secondary-color);
+  color: #212529;
   font-weight: var(--font-weight-bold);
   min-width: 140px;
   margin-right: 10px;
@@ -602,7 +602,7 @@ strong {
 }
 
 .featured-text {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .featured-border-bottom {
@@ -774,8 +774,8 @@ strong {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-small);
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -5px;
+  bottom: -5px;
   width: 30%;
   height: 35%;
   transition: all ease 0.5s;
