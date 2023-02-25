@@ -226,6 +226,17 @@ body {
   }
 }
 
+@media screen and (max-height: 480px) {
+  body {
+    background : var(--primary-color);
+    overflow: auto;
+  }
+
+  .carousel {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 480px) {
   a {
     color:white;
