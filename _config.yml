@@ -1,3 +1,16 @@
-permalink: pretty
-baseurl: /
-pretty: true
+# Site settings
+title: Mon Site
+description: Description de mon site
+baseurl: "" # Les sous-dossiers ne s'afficheront pas
+url: "https://nom-utilisateur.github.io" # L'URL de votre site
+exclude: [vendor] # Les fichiers et dossiers à exclure
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+  hard_wrap: true
+permalink: /:title.html # Utilisation de permaliens pour cacher les extensions HTML
