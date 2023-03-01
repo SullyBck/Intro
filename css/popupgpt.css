@@ -1,6 +1,8 @@
     /* Style de la boîte de dialogue modale */
     .modal {
-        display: none;
+        display: flex;
+        justify-content: center; /* centre horizontalement */
+        align-items: center; /* centre verticalement */
         position: fixed;
         z-index: 1;
         left: 0;
