@@ -30,3 +30,16 @@ $(document).ready(function() {
   magnifPopup();
 
 });
+
+// Récupération de l'élément de la boîte de dialogue
+var dialogueBox = document.querySelector(".dialogue-box");
+
+// Au survol, affichage de la boîte de dialogue
+document.querySelector(".question-mark").addEventListener("mouseover", function() {
+  dialogueBox.style.display = "block";
+});
+
+// À la sortie du survol, masquage de la boîte de dialogue
+document.querySelector(".question-mark").addEventListener("mouseout", function() {
+  dialogueBox.style.display = "none";
+});
