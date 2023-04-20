@@ -569,6 +569,11 @@ strong {
   overflow: hidden;
 }
 
+#presentation {
+  border-top: 1px solid var(--bordure);
+  border-bottom: 1px solid var(--bordure);
+}
+
 .profile-title {
   border-bottom: 1px solid var(--bordure);
   padding: 15px 30px;
@@ -684,6 +689,11 @@ strong {
 /*---------------------------------------
   video
 -----------------------------------------*/
+
+#video {
+  border-top: 1px solid var(--bordure);
+  border-bottom: 1px solid var(--bordure);
+}
 
 .video.section-padding {
   background: var(--ow);
@@ -953,6 +963,15 @@ strong {
   width: 20px;
   height: 20px;
   pointer-events: none;
+}
+
+/*---------------------------------------
+  COURS
+-----------------------------------------*/
+
+#ses {
+  border-top: 1px solid var(--bordure);
+  border-bottom: 1px solid var(--bordure);
 }
 
 /*---------------------------------------
