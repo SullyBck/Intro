@@ -1,5 +1,5 @@
 /*---------------------------------------
-  VARIABLES          
+  VARIABLES
 -----------------------------------------*/
 :root {
   --blanc:                  #ffffff;
@@ -34,17 +34,13 @@
 
 body {
     background: var(--blanc);
-    font-family: var(--font); 
+    font-family: var(--font);
 }
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
-
-@font-face {
-  font-display: swap;
-}
 
 h3,
 h4,
@@ -168,7 +164,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR ROND               
+  AVATAR ROND
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
@@ -184,7 +180,7 @@ strong {
 
 
 /*---------------------------------------
-  LOADER               
+  LOADER
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -233,7 +229,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM ICON           
+  CUSTOM ICON
 -----------------------------------------*/
 .navbar-icon {
   background: var(--blanc);
@@ -256,7 +252,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  CUSTOM BUTTON
 -----------------------------------------*/
 .custom-btn,
 .navbar .custom-btn {
@@ -315,7 +311,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVBAR              
+  NAVBAR
 -----------------------------------------*/
 .sticky-wrapper {
   position: relative;
@@ -403,12 +399,12 @@ strong {
   height: 2px;
 }
 
-.navbar-nav .nav-link.active::after, 
+.navbar-nav .nav-link.active::after,
 .navbar-nav .nav-link:hover::after {
   background: var(--vert);
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--vert);
 }
@@ -481,7 +477,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO              
+  HERO
 -----------------------------------------*/
 .hero {
   background: var(--vert);
@@ -554,7 +550,7 @@ strong {
 }
 
 /*---------------------------------------
-  PRESENTATION              
+  PRESENTATION
 -----------------------------------------*/
 .profile-thumb {
   border: 1px solid var(--bordure);
@@ -596,7 +592,7 @@ strong {
 }
 
 /*---------------------------------------
-  FEATURED              
+  FEATURED
 -----------------------------------------*/
 .featured-number-wrapper {
   position: relative;
@@ -621,7 +617,7 @@ strong {
 }
 
 /*---------------------------------------
-  EXPERIENCE              
+  EXPERIENCE
 -----------------------------------------*/
 .exp-thumb {
   background: var(--ow);
@@ -676,7 +672,7 @@ strong {
 }
 
 /*---------------------------------------
-  HARDWARE              
+  HARDWARE
 -----------------------------------------*/
 
 .hardware {
@@ -779,7 +775,7 @@ strong {
 }
 
 /*---------------------------------------
-  PROGRAMMATION              
+  PROGRAMMATION
 -----------------------------------------*/
 .programmation,
 .featured {
@@ -869,7 +865,7 @@ strong {
 }
 
 /*---------------------------------------
-  CONTACT              
+  CONTACT
 -----------------------------------------*/
 .contact {
   background: var(--ow);
@@ -894,7 +890,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
   background: var(--blanc);
@@ -934,7 +930,7 @@ strong {
   display: block;
   font-size: copyright-font-size;
   margin-top: 15px;
-  display:inline-block; 
+  display:inline-block;
   line-height:1;
 }
 
@@ -986,7 +982,7 @@ strong {
 }
 
 /*---------------------------------------
-  CLIENTS              
+  CLIENTS
 -----------------------------------------*/
 
 .clients-item-height {
@@ -1005,7 +1001,7 @@ strong {
 }
 
 /*---------------------------------------
-  SITE FOOTER              
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   border-top: 1px solid var(--bordure);
@@ -1068,7 +1064,7 @@ strong {
 
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -1102,7 +1098,7 @@ strong {
 }
 
 /*---------------------------------------
-  CAROUSEL               
+  CAROUSEL
 -----------------------------------------*/
 .carousel {
   border-radius: 100%;
@@ -1156,7 +1152,7 @@ strong {
 }
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
@@ -1173,7 +1169,7 @@ strong {
   .hero-image {
     min-width: 650px;
   }
-  
+
   .hero-title,
 	.hero h2 {
 	  font-size: var(--h2-font-size);
@@ -1393,7 +1389,7 @@ strong {
     margin-top: 0px;
     margin-bottom: 100px;
   }
-  
+
   .exp-thumb iframe {
     max-width: 100%;
     max-height: 100%;
