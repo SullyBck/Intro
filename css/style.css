@@ -981,6 +981,22 @@ strong {
   background: var(--ow);
 }
 
+.contact.section-title-wrap {
+  background: var(--vert);
+  border-radius: var(--border-radius-small);
+  padding: 5px 10px;
+}
+
+.contact.section-padding {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.contact.avatar-image{
+  height: 100px;
+  width: 100px;
+}
+
 .contact-info {
   background: var(--blanc);
   border-top-right-radius: var(--border-radius-small);
@@ -1117,6 +1133,13 @@ strong {
   border-top: 1px solid var(--bordure);
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
+}
+
+.site-footer.contact {
+  border-top: 1px solid var(--bordure);
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
