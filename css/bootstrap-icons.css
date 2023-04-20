@@ -26,3 +26,10 @@ font-display: swap;
 .bi-twitter::before { content: "\f5ef"; }
 .bi-github::before { content: "\f3ed"; }
 .bi-youtube::before { content: "\f62b"; }
+
+.bi-lightbulb-fill::before { content: "\f468"; }
+.bi-lightbulb-off-fill::before { content: "\f469"; }
+.bi-lightbulb-off::before { content: "\f46a"; }
+.bi-lightbulb::before { content: "\f46b"; }
+
+.bi-globe::before { content: "\f3ee"; }
