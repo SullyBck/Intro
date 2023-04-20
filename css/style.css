@@ -1548,6 +1548,12 @@ strong {
   }
 }
 
+@media screen and (min-width: 991px) {
+  body {
+    overflow:hidden;
+  }
+}
+
 .space {
 margin:10px;
 }
