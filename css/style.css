@@ -1453,6 +1453,12 @@ strong {
     color: var(--blanc);
   }
 
+  .custom-btn.b {
+    background: var(--bleu);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: var(--blanc);
+  }
+
   .navbar-icon {
     font-size: var(--copyright-font-size);
     width: 35.5px;
