@@ -598,6 +598,10 @@ strong {
 /*---------------------------------------
   FEATURED              
 -----------------------------------------*/
+.featured-number-wrapper {
+  position: relative;
+}
+
 .featured-numbers {
   font-size: var(--h1-font-size);
   line-height: normal;

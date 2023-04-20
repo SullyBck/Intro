@@ -354,8 +354,7 @@ img.mfp-img {
     .question-mark {
       display: inline-block;
       position: absolute;
-      top: 0;
-      right: 150px;
+      top: 10%;
       width: 16px;
       height: 16px;
       border-radius: 100%;
@@ -379,8 +378,8 @@ img.mfp-img {
     .dialogue-box {
       display: none;
       position: absolute;
-      top: -70px;
-      left:80%;
+      bottom: 100%;
+      left:0%;
       padding: 4px;
       background-color: #fff;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -396,7 +395,7 @@ img.mfp-img {
     }
 
     .dialogue-box p {
-      font-size: 10px;
+      font-size: 13px;
       margin: 0;
     }
     
