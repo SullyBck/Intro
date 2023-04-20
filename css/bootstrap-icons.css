@@ -22,3 +22,7 @@ font-display: swap;
 
 .bi-telephone-plus-fill::before { content: "\f5bd"; }
 .bi-telephone-plus::before { content: "\f5be"; }
+.bi-linkedin::before { content: "\f472"; }
+.bi-twitter::before { content: "\f5ef"; }
+.bi-github::before { content: "\f3ed"; }
+.bi-youtube::before { content: "\f62b"; }

@@ -1360,14 +1360,24 @@ strong {
     padding: 6px 12px;
   }
 
+  .custom-btn:hover {
+    background: var(--blanc);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: var(--bleu);
+  }
+
+  .custom-btn {
+    background: var(--vert);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: var(--blanc);
+  }
+
   .navbar-icon {
     font-size: var(--copyright-font-size);
     width: 35.5px;
     height: 35.5px;
     line-height: 35.5px;
   }
-
-
 
   .hardware-thumb-up {
     position: relative;
