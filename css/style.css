@@ -399,14 +399,24 @@ strong {
   height: 2px;
 }
 
-.navbar-nav .nav-link.active::after,
-.navbar-nav .nav-link:hover::after {
-  background: var(--vert);
+.navbar-nav .nav-link.active ,
+.navbar-nav .nav-link:hover {
+  color: var(--blanc);
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after {
+  background: var(--blanc);
+}
+
+.is-sticky .navbar-nav .nav-link.active ,
+.is-sticky .navbar-nav .nav-link:hover {
   color: var(--vert);
+}
+
+.is-sticky .navbar-nav .nav-link.active::after,
+.is-sticky .navbar-nav .nav-link:hover::after {
+  background: var(--vert);
 }
 
 .navbar-toggler {
@@ -1250,6 +1260,16 @@ strong {
     padding-bottom: 10px;
   }
 
+  .navbar-nav .nav-link.active ,
+  .navbar-nav .nav-link:hover {
+  color: var(--vert);
+}
+
+  .navbar-nav .nav-link.active::after,
+  .navbar-nav .nav-link:hover::after {
+  background: var(--vert);
+}
+
   .hero {
     padding-top: 200px;
     padding-bottom: 400px;
@@ -1347,14 +1367,7 @@ strong {
     line-height: 35.5px;
   }
 
-  .hero-image-wrap {
-    width: 300px;
-    height: 300px;
-  }
 
-  .hero-image {
-    min-width: inherit;
-  }
 
   .hardware-thumb-up {
     position: relative;
@@ -1400,7 +1413,6 @@ strong {
 margin:10px;
 }
 
-/*logo html en bas à droite*/
 #html5-logo {
   height: 40px;
 	width: 40px;
