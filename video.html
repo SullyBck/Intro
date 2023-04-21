@@ -24,11 +24,11 @@
 
         <link href="css/animation.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         
         <link href="css/style.css" rel="stylesheet">
 
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.ico">
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEWNT6T2VS"></script>
@@ -42,11 +42,11 @@
     </head>
     
     <body>
-        <section class="preloader">
+        <div class="preloader">
             <div class="spinner">
                 <span class="spinner-rotate"></span>    
             </div>
-        </section>
+        </div>
 
         <!--barre de navigation-->
         <nav class="navbar navbar-expand-lg">
@@ -107,9 +107,9 @@
                 <div class="container mt-5">
                     <div class="row">
 
-                        <div class="col-lg-7 col-md-8 col-12 ms-auto">
+                        <div class="col-lg-6 col-md-8 col-12">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                                <img src="images/video.avif" class="avatar-image img-fluid" alt="">
+                                <img src="images/camera.avif" class="avatar-image img-fluid" alt="">
                                 <h2 class="text-white ms-4 mb-0">Vidéos</h2>
                             </div>
                         </div>
@@ -124,9 +124,8 @@
                                     <h3 class="video-title">Présentation</h3>
                                 </div>
                                     <iframe src="https://www.youtube.com/embed/wONcYSNzAQw"
-                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                    title="YouTube video player" allow="accelerometer; autoplay;
                                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </a>
                             </div>
                         </div>
 
@@ -138,9 +137,8 @@
                                     <h3 class="video-title">Best-of</h3>
                                 </div>
                                     <iframe src="https://www.youtube.com/embed/w3UQzGSMHh0" 
-                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                    title="YouTube video player" allow="accelerometer; autoplay; 
                                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </a>
                             </div>
                         </div>
 
@@ -152,13 +150,100 @@
                                     <h3 class="video-title">Voyage</h3>
                                 </div>
                                     <iframe src="https://www.youtube.com/embed/0GdcQ-wC_aE" 
-                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                    title="YouTube video player" allow="accelerometer; autoplay; 
                                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </a>
                             </div>
                         </div>
-                        <div class="hero-text" id="remonter">
-                            <h1 class="hero-title ms-3 mb-0"><a href="https://sullybck.github.io/Sully-NSI/docs/montage.html" class="a1" target="_blank">Mon logiciel de montage ?</a></h1>
+                    </div>
+                </div>
+            </section>
+
+            <!--montage-->
+            <section class="montage section-padding" id="montage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-12 ms-auto">
+                            <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
+                                <img src="images/video.avif" class="avatar-image img-fluid" alt="">
+                                <h2 class="text-white ms-4 mb-0">Montage</h2>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="montage" src="images/montage.avif" class="about-image img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb">
+                                <h2>Adobe Premiere Pro</h2>
+                                <p>Premiere Pro est un logiciel de montage vidéo de la suite Adobe,
+                                    je vais présenter quelques <strong>fenêtres</strong> du logiciel,
+                                    il y en a beaucoup et c'est entièrement modulable</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb mt-3">
+                                <h2>Sources</h2>
+                                <p>Pour commencer, voici l'endroit où nous pouvons importer nos sources,
+                                    cela peut être des vidéos, des images, des sons, etc</p>
+                            </div>
+                        </div>
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="sources" src="images/sources.avif" class="about-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="montage" src="images/timeline.avif" class="about-image img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb mt-2">
+                                <h2>Timeline</h2>
+                                <p>Ensuite, on peut glisser nos fichiers sur la timeline.
+                                    Cette partie est la partie maîtresse, on y voit toutes les pistes
+                                    audios et vidéos et on peut ajuster les éléments dans le temps</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb mt-3">
+                                <h2>Aperçu</h2>
+                                <p>En haut du logiciel, il y a la fenêtre d'aperçu vidéo qui affiche une prévisualisation
+                                    de notre montage</p>
+                                <p>Cela permet d'observer les effets que l'on applique et de voir s'ils nous conviennent</p>
+                            </div>
+                        </div>
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="sources" src="images/apercu.avif" class="about-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="montage" src="images/outils.avif" class="about-image img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb mt-2">
+                                <h2>Outils</h2>
+                                <p>La partie pour sélectionner l'outil à utiliser, permet de choisir le cutter pour couper les vidéos ou le texte par exemple</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb mt-3">
+                                <h2>Historique et Mixage audio</h2>
+                                <p>L'historiques des actions permet de revenir en arrière lorsque l'on commet une erreur. Il permet aussi de rétablir une action qu'on aurait annulée.</p>
+                                <p>La fenêtre de mixage audio permet de réguler le son des différentes pistes</p>
+                            </div>
+                        </div>
+                        <div class="image-caption-container col-lg-6 col-12">
+                            <img alt="sources" src="images/hist.avif" class="about-image img-fluid">
                         </div>
                     </div>
                 </div>
@@ -175,7 +260,6 @@
                     </div>
                 </div>
             </div>
-
 
         </main>
 
