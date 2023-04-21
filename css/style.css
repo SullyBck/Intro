@@ -1457,6 +1457,12 @@ strong {
     border-bottom: 1px solid var(--bordure);
     border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
   }
+
+  .custom-btn.a {
+    background: var(--vert);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: var(--blanc);
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1497,18 +1503,6 @@ strong {
     background: var(--blanc);
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     color: var(--bleu);
-  }
-
-  .custom-btn {
-    background: var(--vert);
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-    color: var(--blanc);
-  }
-
-  .custom-btn.b {
-    background: var(--bleu);
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-    color: var(--blanc);
   }
 
   .navbar-icon {
@@ -1558,7 +1552,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 991px) and (min-height: 760px) {
   #cont {
     overflow:hidden;
   }
