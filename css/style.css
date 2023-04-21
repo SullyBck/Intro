@@ -1073,6 +1073,15 @@ strong {
   border-bottom: 1px solid var(--bordure);
 }
 
+#maths {
+  border-top: 1px solid var(--bordure);
+  border-bottom: 1px solid var(--bordure);
+}
+
+.maths.section-padding {
+  background: var(--ow);
+}
+
 /*---------------------------------------
   CONTACT
 -----------------------------------------*/
