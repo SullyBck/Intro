@@ -785,6 +785,11 @@ strong {
   border-bottom: 1px solid var(--bordure);
 }
 
+.hardware.section-padding {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
 .hardware-thumb {
   background: var(--blanc);
   border: 2px solid transparent;
@@ -883,6 +888,11 @@ strong {
   background: var(--blanc);
   border-top: 1px solid var(--bordure);
   border-bottom: 1px solid var(--bordure);
+}
+
+.programmation.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .programmation-thumb {
