@@ -1378,9 +1378,10 @@ strong {
 }
 
 .legende {
-  position: absolute;
-  bottom: 1%;
-  left: 4%;
+  position: relative;
+  bottom: 7%;
+  left: 5%;
+  width: 38%;
   font-size: 14px;
   font-weight: bold;
   color: #fff;
