@@ -7,7 +7,7 @@
         <meta name="description" content="SullyBck">
         <meta name="author" content="SullyBck">
 
-        <title>SLB Contact</title>
+        <title>S-Bck Contact</title>
         
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -161,15 +161,29 @@
                                 <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
 
                                 <p>
-                                    <a href="mailto:sully.bck@gmail.com" class="a1" target="_blank">
-                                        sully.bck@gmail.com
+                                    <a>
+                                        <script type="text/javascript">
+                                            // Encode l'adresse e-mail
+                                            var user = "sullyvan";
+                                            var domain = "buckwell";
+                                            var extension = "fr";
+                                            var emailAddress = user + "@" + domain + "." + extension;
+                                            var encodedEmail = '';
+                                    
+                                            for (var i = 0; i < emailAddress.length; i++) {
+                                                encodedEmail += "&#" + emailAddress.charCodeAt(i) + ";";
+                                            }
+                                    
+                                            // Affiche l'adresse e-mail encodée
+                                            document.write('<a href="mailto:' + encodedEmail + '" class="a1">' + encodedEmail + '</a>');
+                                        </script>                                  
                                     </a>
                                 </p>
 
                                 <strong class="site-footer-title d-block mt-4 mb-3">Appeler</strong>
 
                                 <p class="mb-0">
-                                        +33 6 02 xx xx xx
+                                        +33 6 02 XX XX 09
                                 </p>
                             </div>
                         </div>
@@ -284,5 +298,6 @@
         <script src="js/jquery.sticky2.js"></script>
         <script src="js/popup_carousel.js"></script>
         <script src="js/scroll.js"></script>
+        <script src="js/mail.js"></script>
     </body>
 </html>
