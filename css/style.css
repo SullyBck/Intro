@@ -590,12 +590,12 @@ strong {
 }
 
 .city-container {
-  display: flex;
+  display:flex;
   align-items: center;
 }
 
 .city-list {
-  float: right;
+  margin-left: 5px;
 }
 
 .profile-body p {
