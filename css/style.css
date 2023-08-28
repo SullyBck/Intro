@@ -1668,8 +1668,7 @@ margin:10px;
 
 #embeddedContainer {
   display: none;
-  width: 100%; /* Définir la largeur souhaitée */
-  max-width: 315px;
+  max-width: 100%;
   aspect-ratio: 8/17;
 }
 
@@ -1695,7 +1694,7 @@ margin:10px;
 
 @media screen and (max-width: 510px) {
   #embeddedContainer {
-    width: 300px; /* Définir la largeur souhaitée */
+    max-width: 300px; /* Réduisez la largeur pour les petits écrans */
   }
   
   #embeddedContainer3 {
@@ -1706,12 +1705,8 @@ margin:10px;
   }
 }
 
-.imgur-embed-pub {
-  width: 100%; 
-  height: 100%;
-}
-
-.imgur-embed-pub {
-  height: 100%;
-  width: 100%;
+/* Nouveaux styles pour le conteneur de l'embed Imgur */
+.imgur-embed-container {
+  display: block;
+  margin: 0 auto; /* Centre le contenu */
 }

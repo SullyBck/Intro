@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode = `
-        <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7">
+        <blockquote lang="en" data-id="a/MaVIYv7">
             <a href="//imgur.com/a/MaVIYv7">Montage de A à Z</a>
         </blockquote>
         <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -79,13 +79,16 @@ $(document).ready(function() {
 
         if ($embeddedContainer.is(':hidden')) {
             $embeddedContainer.html(embeddedCode);
+            $embeddedContainer.addClass('imgur-embed-container'); // Ajoutez cette classe
             $embeddedContainer.show();
         } else {
             $embeddedContainer.empty();
+            $embeddedContainer.removeClass('imgur-embed-container'); // Retirez cette classe
             $embeddedContainer.hide();
         }
     });
 });
+
 
 
 $(document).ready(function() {
