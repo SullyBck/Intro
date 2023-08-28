@@ -1671,3 +1671,18 @@ margin:10px;
   width: 90%; /* Définir la largeur souhaitée */
   height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
 }
+#embeddedContainer2 {
+  display: none;
+  width: 90%; /* Définir la largeur souhaitée */
+  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+}
+#embeddedContainer3 {
+  display: none;
+  width: 90%; /* Définir la largeur souhaitée */
+  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+}
+#embeddedContainer4 {
+  display: none;
+  width: 90%; /* Définir la largeur souhaitée */
+  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+}

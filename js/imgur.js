@@ -88,3 +88,67 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+    var embeddedCode2 = `
+    <iframe width="315" height="560"
+    src="https://www.youtube.com/embed/ZJYZhRJpBgY"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+    `;
+
+    $("#openPopupButton2").click(function() {
+        var $embeddedContainer2 = $("#embeddedContainer2");
+
+        if ($embeddedContainer2.is(':hidden')) {
+            $embeddedContainer2.html(embeddedCode2);
+            $embeddedContainer2.show();
+        } else {
+            $embeddedContainer2.empty();
+            $embeddedContainer2.hide();
+        }
+    });
+});
+
+$(document).ready(function() {
+    var embeddedCode3 = `
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/vF5o5Gq"  >
+        <a href="//imgur.com/a/vF5o5Gq">Réparation</a>
+    </blockquote>
+    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    `;
+
+    $("#openPopupButton3").click(function() {
+        var $embeddedContainer3 = $("#embeddedContainer3");
+
+        if ($embeddedContainer3.is(':hidden')) {
+            $embeddedContainer3.html(embeddedCode3);
+            $embeddedContainer3.show();
+        } else {
+            $embeddedContainer3.empty();
+            $embeddedContainer3.hide();
+        }
+    });
+});
+
+$(document).ready(function() {
+    var embeddedCode4 = `
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq">
+        <a href="//imgur.com/a/1e5FXBq">Stockage</a>
+    </blockquote>
+    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    `;
+
+    $("#openPopupButton4").click(function() {
+        var $embeddedContainer4 = $("#embeddedContainer4");
+
+        if ($embeddedContainer4.is(':hidden')) {
+            $embeddedContainer4.html(embeddedCode4);
+            $embeddedContainer4.show();
+        } else {
+            $embeddedContainer4.empty();
+            $embeddedContainer4.hide();
+        }
+    });
+});
