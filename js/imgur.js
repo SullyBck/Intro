@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode = `
-        <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7">
+        <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7" style="width: 100%; height: 100%;">
             <a href="//imgur.com/a/MaVIYv7">Montage de A à Z</a>
         </blockquote>
         <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -113,7 +113,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode3 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/vF5o5Gq"  >
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/vF5o5Gq" style="width: 100%; height: 100%;">
         <a href="//imgur.com/a/vF5o5Gq">Réparation</a>
     </blockquote>
     <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -134,7 +134,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode4 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq">
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq" style="width: 100%; height: 100%;">
         <a href="//imgur.com/a/1e5FXBq">Stockage</a>
     </blockquote>
     <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
