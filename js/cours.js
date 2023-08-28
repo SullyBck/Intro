@@ -30,8 +30,9 @@ tabs.forEach(tab => {
 
 const pdf2 = document.getElementById('pdf2');
 
-function changePDF2(newPDFPath2) {
-    pdf2.setAttribute('data', newPDFPath2);
+function changePDF2(newPDFPath) {
+    const newPDFUrl = `https://drive.google.com/file/d/${newPDFPath}/preview`;
+    pdf2.src = newPDFUrl;
 }
 
 const tabs2 = document.querySelectorAll('.tab2');
