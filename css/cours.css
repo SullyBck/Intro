@@ -109,6 +109,7 @@ ul.subtabs2 li {
 
 .pdfs {
     border: none;
+    width: 100%;
     aspect-ratio: 70/99;
 }
 
