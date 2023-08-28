@@ -110,10 +110,12 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode3 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/vF5o5Gq">
-        <a href="//imgur.com/a/vF5o5Gq">Réparation</a>
-    </blockquote>
-    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/YjoVTMW5G-w"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
     `;
 
     $("#openPopupButton3").click(function() {
@@ -130,12 +132,22 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    if (currentScreenWidth < 460) {
     var embeddedCode4 = `
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/Bv1h1vL"  >
+        <a href="//imgur.com/a/Bv1h1vL">Stockage</a>
+    </blockquote>
+    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    `;
+    }
+    else {
+        var embeddedCode4 = `
     <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq">
         <a href="//imgur.com/a/1e5FXBq">Stockage</a>
     </blockquote>
     <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     `;
+    }
 
     $("#openPopupButton4").click(function() {
         var $embeddedContainer4 = $("#embeddedContainer4");
