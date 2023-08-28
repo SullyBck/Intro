@@ -90,7 +90,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode2 = `
-    <iframe width="315" height="560"
+    <iframe width="100%" height="100%"
     src="https://www.youtube.com/embed/ZJYZhRJpBgY"
     title="YouTube video player"
     frameborder="0"

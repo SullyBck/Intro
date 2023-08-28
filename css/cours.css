@@ -113,7 +113,7 @@ ul.subtabs2 li {
     flex-direction: column; /* Disposition en colonne pour aligner en bas */
     align-items: flex-start; /* Alignement à gauche (dans la direction du flux) */
     width: 100%;
-    height: 600px;
+    aspect-ratio: 70/99;
     margin-top: 20px;
     border: none;
 }
@@ -121,57 +121,13 @@ ul.subtabs2 li {
 .pdf-iframe {
     border: none;
     width: 100%;
-    height: 100%;
+    aspect-ratio: 70/99;
 }
 
-
-/* Pour les écrans extra small (xs) */
-@media (max-width: 575.98px) {
-    .pdf-iframe {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans small (sm) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .pdf-iframe {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans medium (md) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .pdf-iframe {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans large (lg) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .pdf-iframe {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans extra large (xl) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-    #pdfViewer {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans extra large (xl) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-    #pdfViewer2 {
-        width: 100%;
-    }
-}
-
-/* Pour les écrans extra large (xxl) */
-@media (min-width: 1400px) {
-    #pdf1 {
-        width: 100%;
-    }
+#pdf1 {
+    border: none;
+    width: 100%;
+    aspect-ratio: 70/99;
 }
 
 /* Media query pour ajuster les marges entre 993px et 1200px */

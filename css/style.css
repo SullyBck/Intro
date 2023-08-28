@@ -1668,21 +1668,27 @@ margin:10px;
 
 #embeddedContainer {
   display: none;
-  width: 90%; /* Définir la largeur souhaitée */
-  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+  width: 100%; /* Définir la largeur souhaitée */
+  max-width: 315px;
+  aspect-ratio: 3/4;
 }
+
 #embeddedContainer2 {
   display: none;
-  width: 90%; /* Définir la largeur souhaitée */
-  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+  width: 100%; /* Définir la largeur souhaitée */
+  max-width: 315px;
+  aspect-ratio: 9/16;
 }
+
 #embeddedContainer3 {
   display: none;
-  width: 90%; /* Définir la largeur souhaitée */
-  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+  width: 100%; /* Définir la largeur souhaitée */
+  max-width: 315px;
+  aspect-ratio: 3/4;
 }
 #embeddedContainer4 {
   display: none;
-  width: 90%; /* Définir la largeur souhaitée */
-  height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+  width: 100%; /* Définir la largeur souhaitée */
+  max-width: 315px;
+  aspect-ratio: 3/4;
 }
