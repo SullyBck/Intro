@@ -68,10 +68,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var embeddedCode = `
-        <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7">
-            <a href="//imgur.com/a/MaVIYv7">Montage de A à Z</a>
-        </blockquote>
-        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/X6xUt98" data-context="false" ><a href="//imgur.com/a/X6xUt98"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     `;
 
     $("#openPopupButton").click(function() {
