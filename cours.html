@@ -102,79 +102,84 @@
             <!--maths-->
             <section class="maths section-padding" id="maths">
                 <div class="container mt-5">
-                    <div class="row">
+                    <div class="row roww">
                         <div class="col-lg-6 col-md-8 col-12">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                                <img alt="icone maths" src="images/cours/logo_maths.png" class="avatar-image img-fluid" alt="logo maths">
-                                <h2 class="text-white ms-4 mb-0">Mathématiques</h2>
+                                <img alt="icone maths" src="images/cours/logo_maths.png" class="avatar-image img-fluid" width="90%">
+                                <h2 class="text-white mb-0 titlecours">Mathématiques</h2>
                             </div>
-                            <button onclick="changePDF('maths/programme.pdf')">Programme</button>
-                            <ul class="tabs" id="tabs">
-                                <li class="tab" data-tab="analyse">Analyse</li>
-                                <li class="tab" data-tab="probabilites">Probabilités</li>
-                                <li class="tab" data-tab="geometrie">Géométrie</li>
-                                <li class="tab" data-tab="algebre">Algèbre</li>
-                            </ul>
-                            
-                            <ul class="subtabs" id="analyse">
-                                <button onclick="changePDF('maths/analyse/0_fonctions.pdf')">1 - Notion de fonction</button>
-                                <button onclick="changePDF('maths/analyse/0_fonctions_ref.pdf')">2 - Fonctions de référence</button><br>
-                                <button onclick="changePDF('maths/analyse/1_suites.pdf')">3 - Suites réelles</button> 
-                                <button onclick="changePDF('maths/analyse/2_lim_suites.pdf')">4 - Limites de suites</button><br>
-                                <button onclick="changePDF('maths/analyse/3_limites-fonctions.pdf')">5 - Limites de fonctions</button>
-                                <button onclick="changePDF('maths/analyse/4_composition-continuité.pdf')">6 - Composition et continuité</button><br>
-                                <button onclick="changePDF('maths/analyse/5_dérivation.pdf')">7 - Dérivation</button>  
-                                <button onclick="changePDF('maths/analyse/6_convexite.pdf')">8 - Convexité</button><br>
-                                <button onclick="changePDF('maths/analyse/7_primitives-equadiff.pdf')">9 - Primitives & équa-diff</button>
-                                <button onclick="changePDF('maths/analyse/8_integration.pdf')">10 - Intégration</button><br>
-                                <button onclick="changePDF('maths/analyse/9_exp-log.pdf')">11 - Exponentielle et logarithme</button>
-                                <button onclick="changePDF('maths/analyse/10_trigo.pdf')">12 - Trigonométrie</button>
-                                <!-- Ajoutez d'autres liens PDF ici -->
-                            </ul>
-                            
-                            <ul class="subtabs" id="probabilites">
-                                <button onclick="changePDF('maths/probas/1_pourcentages.pdf')">1 - Pourcentages</button>
-                                <button onclick="changePDF('maths/probas/2_statistiques.pdf')">2 - Statistiques</button><br>
-                                <button onclick="changePDF('maths/probas/3_probas.pdf')">3 - Probabilités</button> 
-                                <button onclick="changePDF('maths/probas/4_variables-aleatoires.pdf')">4 - Variables aléatoires</button><br>
-                                <button onclick="changePDF('maths/probas/5_discretes.pdf')">5 - Probabilités discrètes</button>
-                                <button onclick="changePDF('maths/probas/6_continues.pdf')">6 - Probabilités continues</button><br>
-                                <!-- Ajoutez d'autres liens PDF ici -->
-                            </ul>
-                            
-                            <ul class="subtabs" id="geometrie">
-                                <button onclick="changePDF('maths/geometrie/0_geometrie.pdf')">1 - Géométrie</button>
-                                <button onclick="changePDF('maths/geometrie/1_triangles.pdf')">2 - Triangles</button><br>
-                                <button onclick="changePDF('maths/geometrie/2_quadrilateres.pdf')">3 - Quadrilatères</button> 
-                                <button onclick="changePDF('maths/geometrie/3_plan.pdf')">4 - Plan et transformations</button><br>
-                                <button onclick="changePDF('maths/geometrie/4_espace.pdf')">5 - Espace et solides</button>
-                                <button onclick="changePDF('maths/geometrie/5_droites.pdf')">6 - Systèmes et Droites</button><br>
-                                <button onclick="changePDF('maths/geometrie/6_vecteurs.pdf')">7 - Vecteurs</button>  
-                                <button onclick="changePDF('maths/geometrie/7_produit-scalaire.pdf')">8 - Produit scalaire</button><br>
-                                <button onclick="changePDF('maths/geometrie/8_espace-pt1.pdf')">9 - Géométrie dans l'espace 1</button>
-                                <button onclick="changePDF('maths/geometrie/8_espace-pt2.pdf')">10 - Géométrie dans l'espace 2</button>
-                                <!-- Ajoutez d'autres liens PDF ici -->
-                            </ul>
-                            
-                            <ul class="subtabs" id="algebre">
-                                <button onclick="changePDF('maths/algebre/1_ensembles.pdf')">1 - Ensembles</button>
-                                <button onclick="changePDF('maths/algebre/2_expressions-algebriques.pdf')">2 - Expressions algébriques</button><br>
-                                <button onclick="changePDF('maths/algebre/3_polynomes.pdf')">3 - Polynomes</button> 
-                                <button onclick="changePDF('maths/algebre/4_complexes.pdf')">4 - Nombres complexes</button><br>
-                                <button onclick="changePDF('maths/algebre/5_arithmetique.pdf')">5 - Arithmétique</button>
-                                <button onclick="changePDF('maths/algebre/6_matrices.pdf')">6 - Matrice</button>
-                                <!-- Ajoutez d'autres liens PDF ici -->
-                            </ul>
-                            <br>
-                            Voici mes fiches de maths, écrites en format LaTeX. Elles reprennent l'essentiel des programmes de collège et lycée. Elles contiennent certainement des coquilles (<a href="contact" class="a1" target="_blank">signalez-le moi</a>) et ne sont peut-être pas parfaites mais j'ai fait de mon mieux.<br><br>
-                            Je tiens à remercier mes professeurs de mathématiques de 1re et de Tle : T.Etcheverrigaray et M.Laabid. Il m'ont transmis le goût des maths, et je me suis inspiré de leurs cours pour le contenu de mes fiches. <br><br>
-                            Je remercie aussi <a href="https://www.maths-et-tiques.fr/index.php/cours-maths" class="a1" target="_blank">Yvan Monka</a> pour les très nombreuses ressources qu'il partage, qui m'ont permis de compléter ce que j'avais. <br><br>
-                            Enfin, un énorme merci à <a href="http://mathematiques.daval.free.fr" class="a1" target="_blank">Nathalie Daval</a>, professeure agrégée de mathématiques, qui avait créé en 2017 un formulaire de 10 fiches de maths pour Tle S. Six ans plus tard, j'ai récupéré énormément de son travail pour poursuivre ce qu'elle avait commencé.
+                            <div class="d-flex flex-column-reverse flex-lg-column">
+                                <div>
+                                    <button onclick="changePDF('maths/programme.pdf')">Programme</button>
+                                    <ul class="tabs" id="tabs">
+                                        <li class="tab" data-tab="analyse">Analyse</li>
+                                        <li class="tab" data-tab="probabilites">Probabilités</li>
+                                        <li class="tab" data-tab="geometrie">Géométrie</li>
+                                        <li class="tab" data-tab="algebre">Algèbre</li>
+                                    </ul>
+                                    
+                                    <ul class="subtabs" id="analyse">
+                                        <button onclick="changePDF('maths/analyse/0_fonctions.pdf')">1 - Notion de fonction</button>
+                                        <button onclick="changePDF('maths/analyse/0_fonctions_ref.pdf')">2 - Fonctions de référence</button><br>
+                                        <button onclick="changePDF('maths/analyse/1_suites.pdf')">3 - Suites réelles</button> 
+                                        <button onclick="changePDF('maths/analyse/2_lim_suites.pdf')">4 - Limites de suites</button><br>
+                                        <button onclick="changePDF('maths/analyse/3_limites-fonctions.pdf')">5 - Limites de fonctions</button>
+                                        <button onclick="changePDF('maths/analyse/4_composition-continuité.pdf')">6 - Composition et continuité</button><br>
+                                        <button onclick="changePDF('maths/analyse/5_dérivation.pdf')">7 - Dérivation</button>  
+                                        <button onclick="changePDF('maths/analyse/6_convexite.pdf')">8 - Convexité</button><br>
+                                        <button onclick="changePDF('maths/analyse/7_primitives-equadiff.pdf')">9 - Primitives & équa-diff</button>
+                                        <button onclick="changePDF('maths/analyse/8_integration.pdf')">10 - Intégration</button><br>
+                                        <button onclick="changePDF('maths/analyse/9_exp-log.pdf')">11 - Exponentielle et logarithme</button>
+                                        <button onclick="changePDF('maths/analyse/10_trigo.pdf')">12 - Trigonométrie</button>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    
+                                    <ul class="subtabs" id="probabilites">
+                                        <button onclick="changePDF('maths/probas/1_pourcentages.pdf')">1 - Pourcentages</button>
+                                        <button onclick="changePDF('maths/probas/2_statistiques.pdf')">2 - Statistiques</button><br>
+                                        <button onclick="changePDF('maths/probas/3_probas.pdf')">3 - Probabilités</button> 
+                                        <button onclick="changePDF('maths/probas/4_variables-aleatoires.pdf')">4 - Variables aléatoires</button><br>
+                                        <button onclick="changePDF('maths/probas/5_discretes.pdf')">5 - Probabilités discrètes</button>
+                                        <button onclick="changePDF('maths/probas/6_continues.pdf')">6 - Probabilités continues</button><br>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    
+                                    <ul class="subtabs" id="geometrie">
+                                        <button onclick="changePDF('maths/geometrie/0_geometrie.pdf')">1 - Géométrie</button>
+                                        <button onclick="changePDF('maths/geometrie/1_triangles.pdf')">2 - Triangles</button><br>
+                                        <button onclick="changePDF('maths/geometrie/2_quadrilateres.pdf')">3 - Quadrilatères</button> 
+                                        <button onclick="changePDF('maths/geometrie/3_plan.pdf')">4 - Plan et transformations</button><br>
+                                        <button onclick="changePDF('maths/geometrie/4_espace.pdf')">5 - Espace et solides</button>
+                                        <button onclick="changePDF('maths/geometrie/5_droites.pdf')">6 - Systèmes et Droites</button><br>
+                                        <button onclick="changePDF('maths/geometrie/6_vecteurs.pdf')">7 - Vecteurs</button>  
+                                        <button onclick="changePDF('maths/geometrie/7_produit-scalaire.pdf')">8 - Produit scalaire</button><br>
+                                        <button onclick="changePDF('maths/geometrie/8_espace-pt1.pdf')">9 - Géométrie dans l'espace 1</button>
+                                        <button onclick="changePDF('maths/geometrie/8_espace-pt2.pdf')">10 - Géométrie dans l'espace 2</button>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    
+                                    <ul class="subtabs" id="algebre">
+                                        <button onclick="changePDF('maths/algebre/1_ensembles.pdf')">1 - Ensembles</button>
+                                        <button onclick="changePDF('maths/algebre/2_expressions-algebriques.pdf')">2 - Expressions algébriques</button><br>
+                                        <button onclick="changePDF('maths/algebre/3_polynomes.pdf')">3 - Polynomes</button> 
+                                        <button onclick="changePDF('maths/algebre/4_complexes.pdf')">4 - Nombres complexes</button><br>
+                                        <button onclick="changePDF('maths/algebre/5_arithmetique.pdf')">5 - Arithmétique</button>
+                                        <button onclick="changePDF('maths/algebre/6_matrices.pdf')">6 - Matrice</button>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                </div>
+                                <div>
+                                    Voici mes fiches de maths que j'ai écrites en format LaTeX. Elles reprennent l'essentiel des programmes de collège et lycée. Elles contiennent certainement des coquilles (<a href="contact" class="a1" target="_blank">signalez-le moi</a>) et ne sont peut-être pas parfaites mais j'ai fait de mon mieux.<br><br>
+                                    Je tiens à remercier mes professeurs de mathématiques de 1re et de Tle : T.Etcheverrigaray et M.Laabid. Il m'ont transmis le goût des maths, et je me suis inspiré de leurs cours pour le contenu de mes fiches. <br><br>
+                                    Je remercie aussi <a href="https://www.maths-et-tiques.fr/index.php/cours-maths" class="a1" target="_blank">Yvan Monka</a> pour les très nombreuses ressources qu'il partage, qui m'ont permis de compléter ce que j'avais. <br><br>
+                                    Enfin, un énorme merci à <a href="http://mathematiques.daval.free.fr" class="a1" target="_blank">Nathalie Daval</a>, professeure agrégée de mathématiques, qui avait créé en 2017 un formulaire de 10 fiches de maths pour Tle S. Six ans plus tard, j'ai récupéré énormément de son travail pour poursuivre ce qu'elle avait commencé.<br><br>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-8 col-12 ms-auto">
-                            <iframe id="pdfViewer" src="maths/programme.pdf" width="90%" height="809px"></iframe>
+                        <div class="col-lg-6 col-md-8 col-12 ms-auto" class="pdf-container">
+                            <iframe class="pdf-iframe" id="pdf1" src="maths/programme.pdf"></iframe>
                         </div>
-                        <div class="clearfix"></div>
+                            <div class="clearfix"></div>
                     </div>
                 </div>
             </section>
@@ -182,49 +187,55 @@
             <!--SES-->
             <section class="ses section-padding" id="ses">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-8 col-12 ms-auto">
-                            <iframe id="pdfViewer2" src="SES/programme.pdf" width="90%" height="809px"></iframe>
-                        </div>
+                    <div class="row flex-lg-row-reverse">
                         <div class="col-lg-6 col-md-8 col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                                 <img alt="icone SES" src="images/cours/eco.png" class="avatar-image img-fluid" alt="eco">
-                                <h2 class="text-white ms-4 mb-0">Sciences Économiques & Sociales</h2>
+                                <h2 class="text-white ms-4 mb-0 titlecours">Sciences Économiques & Sociales</h2>
                             </div>
-                            <button onclick="changePDF2('SES/programme.pdf')">Programme</button>
-                            <ul class="tabs2" id="tabs2">
-                                <li class="tab2" data-tab2="economie">Économie</li>
-                                <li class="tab2" data-tab2="sociologie">Sociologie</li>
-                                <li class="tab2" data-tab2="regards-croises">Regards croisés</li>
-                            </ul>
-                                <ul class="subtabs2" id="economie">
-                                    <li><button onclick="changePDF2('SES/eco/1_croissance.pdf')">1 - Croissance économique</button></li>
-                                    <li><button onclick="changePDF2('SES/eco/2_commerce-international.pdf')">2 - Commerce international</button></li>
-                                    <li><button onclick="changePDF2('SES/eco/3_chomage.pdf')">3 - Chômage</button></li>
-                                    <li><button onclick="changePDF2('SES/eco/4_crises-financieres.pdf')">4 - Crises financières</button></li>
-                                    <li><button onclick="changePDF2('SES/eco/5_politiques-europe.pdf')">5 - Politiques économiques européennes</button></li>
-                                    <!-- Ajoutez d'autres liens PDF ici -->
-                                </ul>
-                                <div class="subtabs-container">
-                                <ul class="subtabs2" id="sociologie">
-                                    <li><button onclick="changePDF2('SES/socio/1_structure-sociale.pdf')">1 - Structure sociale française</button></li>
-                                    <li><button onclick="changePDF2('SES/socio/2_ecole.pdf')">2 - École</button></li>
-                                    <li><button onclick="changePDF2('SES/socio/3_mobilite.pdf')">3 - Mobilité sociale</button></li>
-                                    <li><button onclick="changePDF2('SES/socio/4_mutations.pdf')">4 - Mutations travail & emploi</button></li>
-                                    <li><button onclick="changePDF2('SES/socio/5_engagement-politique.pdf')">5 - Engagement politique</button></li>
-                                    <!-- Ajoutez d'autres liens PDF ici -->
-                                </ul>
+                            <div class="d-flex flex-column-reverse flex-lg-column">
+                                <div>
+                                    <button onclick="changePDF2('SES/programme.pdf')">Programme</button>
+                                    <ul class="tabs2" id="tabs2">
+                                        <li class="tab2" data-tab2="economie">Économie</li>
+                                        <li class="tab2" data-tab2="sociologie">Sociologie</li>
+                                        <li class="tab2" data-tab2="regards-croises">Regards croisés</li>
+                                    </ul>
+                                    <ul class="subtabs2" id="economie">
+                                        <li><button onclick="changePDF2('SES/eco/1_croissance.pdf')">1 - Croissance économique</button></li>
+                                        <li><button onclick="changePDF2('SES/eco/2_commerce-international.pdf')">2 - Commerce international</button></li>
+                                        <li><button onclick="changePDF2('SES/eco/3_chomage.pdf')">3 - Chômage</button></li>
+                                        <li><button onclick="changePDF2('SES/eco/4_crises-financieres.pdf')">4 - Crises financières</button></li>
+                                        <li><button onclick="changePDF2('SES/eco/5_politiques-europe.pdf')">5 - Politiques économiques européennes</button></li>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    <div class="subtabs-container2">
+                                    <ul class="subtabs2" id="sociologie">
+                                        <li><button onclick="changePDF2('SES/socio/1_structure-sociale.pdf')">1 - Structure sociale française</button></li>
+                                        <li><button onclick="changePDF2('SES/socio/2_ecole.pdf')">2 - École</button></li>
+                                        <li><button onclick="changePDF2('SES/socio/3_mobilite.pdf')">3 - Mobilité sociale</button></li>
+                                        <li><button onclick="changePDF2('SES/socio/4_mutations.pdf')">4 - Mutations travail & emploi</button></li>
+                                        <li><button onclick="changePDF2('SES/socio/5_engagement-politique.pdf')">5 - Engagement politique</button></li>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    </div>
+                                    <div class="subtabs-container2">
+                                    <ul class="subtabs2" id="regards-croises">
+                                        <li><button onclick="changePDF2('SES/rc/1_justice-sociale.pdf')">1 - Justice sociale</button></li>
+                                        <li><button onclick="changePDF2('SES/rc/2_environnement.pdf')">2 - Environnement</button></li>
+                                        <!-- Ajoutez d'autres liens PDF ici -->
+                                    </ul>
+                                    </div>
                                 </div>
-                                <div class="subtabs-container2">
-                                <ul class="subtabs2" id="regards-croises">
-                                    <li><button onclick="changePDF2('SES/rc/1_justice-sociale.pdf')">1 - Justice sociale</button></li>
-                                    <li><button onclick="changePDF2('SES/rc/2_environnement.pdf')">2 - Environnement</button></li>
-                                    <!-- Ajoutez d'autres liens PDF ici -->
-                                </ul>
+                                <div>
+                                    Voilà mes cours de terminale de la spécialité SES, certains sont moins fournis que d'autres car ils n'étaient pas tous au programme des épreuves de mars 2023.<br><br>
+                                    Pour les SES, je dois beaucoup à C.Labonnellie qui m'a motivé à continuer cette spécialité en classe de terminale.<br><br>
+                                    En terminale, j'ai bénéficié d'un super accompagnement de mon prof principal V.Tito. En plus, j'ai pu compléter mes fiches grâce aux ressources de R.Sabatier, merci à elle.<br><br>
                                 </div>
-                                Voilà mes cours de terminale de la spécialité SES, certains sont moins fournis que d'autres car ils n'étaient pas tous au programme des épreuves de mars 2023.<br><br>
-                                Pour les Sciences Économiques et Sociales, je dois beaucoup à C.Labonnellie qui m'a motivé à continuer cette spécialité en classe de terminale.<br><br>
-                                En terminale, j'ai bénéficié d'un super accompagnement de mon prof principal V.Tito. En plus, j'ai pu compléter mes fiches grâce aux ressources de R.Sabatier, merci à elle.<br><br>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-8 col-12 ms-auto" class="pdf-container">
+                            <iframe class="pdf-iframe" id="pdf2" src="SES/programme.pdf"></iframe>
                         </div>
                     </div>
                 </div>
