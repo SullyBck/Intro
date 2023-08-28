@@ -1711,3 +1711,8 @@ margin:10px;
     aspect-ratio: 8/16;
   }
 }
+
+.imgur-embed-pub {
+  width: 100%; 
+  height: 100%;
+}
