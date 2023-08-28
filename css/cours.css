@@ -107,26 +107,8 @@ ul.subtabs2 li {
     justify-content: right; /* Centre les conteneurs horizontalement */
 }
 
-/* Ajoutez une nouvelle classe pour cibler la div contenant l'iframe PDF */
-.pdf-container {
-    display: flex;
-    flex-direction: column; /* Disposition en colonne pour aligner en bas */
-    align-items: flex-start; /* Alignement à gauche (dans la direction du flux) */
-    width: 100%;
-    aspect-ratio: 70/99;
-    margin-top: 20px;
+.pdfs {
     border: none;
-}
-
-.pdf-iframe {
-    border: none;
-    width: 100%;
-    aspect-ratio: 70/99;
-}
-
-#pdf1 {
-    border: none;
-    width: 100%;
     aspect-ratio: 70/99;
 }
 
