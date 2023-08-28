@@ -766,20 +766,6 @@ strong {
   height: 605px;
 }
 
-@media screen and (max-width: 1400px) {
-  .video-thumb iframe {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .video-thumb iframe {
-    width: 110%;
-    height: 10%;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .video-thumb iframe {
     width: 100%;
