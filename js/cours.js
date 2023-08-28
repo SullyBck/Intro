@@ -32,3 +32,27 @@ const pdfObject = document.getElementById('pdfObject');
 function changePDF2(newPDFPath2) {
     pdfObject.setAttribute('data', newPDFPath2);
 }
+
+const tabs2 = document.querySelectorAll('.tab2');
+const subtabs2 = document.querySelectorAll('.subtabs2');
+
+tabs2.forEach(tab2 => {
+    tab2.addEventListener('click', () => {
+        const tabId2 = tab2.getAttribute('data-tab2');
+        
+        tabs2.forEach(otherTab => {
+            if (otherTab !== tab2) {
+                otherTab.classList.remove('active'); // Désactive les autres onglets
+            }
+        });
+        
+        subtabs2.forEach(subtab2 => {
+            if (subtab2.id === tabId2) {
+                subtab2.classList.toggle('active');
+                tab2.classList.toggle('active'); // Active le nouvel onglet
+            } else {
+                subtab2.classList.remove('active');
+            }
+        });
+    });
+});
