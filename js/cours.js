@@ -1,6 +1,7 @@
+const pdf1 = document.getElementById('pdf1');
+
 function changePDF(newPDFPath) {
-    var pdf1 = document.getElementById('pdf1');
-    pdf1.setAttribute('src', newPDFPath);
+    pdf1.setAttribute('data', newPDFPath);
 }
 
 const tabs = document.querySelectorAll('.tab');
@@ -27,10 +28,10 @@ tabs.forEach(tab => {
     });
 });
 
-const pdfObject = document.getElementById('pdfObject');
+const pdf2 = document.getElementById('pdf2');
 
 function changePDF2(newPDFPath2) {
-    pdfObject.setAttribute('data', newPDFPath2);
+    pdf2.setAttribute('data', newPDFPath2);
 }
 
 const tabs2 = document.querySelectorAll('.tab2');
