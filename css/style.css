@@ -1670,7 +1670,7 @@ margin:10px;
   display: none;
   width: 80%; /* Définir la largeur souhaitée */
   max-width: 315px;
-  aspect-ratio: 8/14;
+  aspect-ratio: 8/17;
 }
 
 #embeddedContainer2 {
@@ -1684,11 +1684,11 @@ margin:10px;
   display: none;
   width: 100%; /* Définir la largeur souhaitée */
   max-width: 315px;
-  aspect-ratio: 8/17;
+  aspect-ratio: 8/18;
 }
 #embeddedContainer4 {
   display: none;
   width: 100%; /* Définir la largeur souhaitée */
   max-width: 315px;
-  aspect-ratio: 8/15;
+  aspect-ratio: 8/16;
 }
