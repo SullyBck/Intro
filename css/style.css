@@ -1665,3 +1665,8 @@ margin:10px;
   height: 40px;
 	width: 40px;
 }
+
+#embeddedContainer {
+  width: 80%;
+  height: 80%;
+}
