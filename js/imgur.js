@@ -1,17 +1,37 @@
-const openButton = document.getElementById("openPopupButton");
-const closeButton = document.getElementById("closePopup");
-const popupContainer = document.getElementById("popupContainer");
+$(document).ready(function() {
+    $("#openPopupButton").click(function() {
+        var $hardwareIcon = $("#hardwareIcon");
 
-openButton.addEventListener("click", () => {
-  popupContainer.style.display = "flex";
+        // Vérifier si la classe et le contenu sont modifiés
+        if (!$hardwareIcon.hasClass("hardware-icon-wrap") && $hardwareIcon.is(':empty')) {
+            // Rétablir la classe et insérer l'icône
+            $hardwareIcon.addClass("hardware-icon-wrap");
+            $hardwareIcon.html('<i class="fa-solid fa-computer"></i>');
+        } else {
+            // Supprimer la classe et vider le contenu
+            $hardwareIcon.removeClass("hardware-icon-wrap");
+            $hardwareIcon.empty();
+        }
+    });
 });
 
-closeButton.addEventListener("click", () => {
-  popupContainer.style.display = "none";
-});
+$(document).ready(function() {
+    var embeddedCode = `
+        <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7">
+            <a href="//imgur.com/a/MaVIYv7">Montage de A à Z</a>
+        </blockquote>
+        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    `;
 
-window.addEventListener("click", (event) => {
-  if (event.target === popupContainer) {
-    popupContainer.style.display = "none";
-  }
+    $("#openPopupButton").click(function() {
+        var $embeddedContainer = $("#embeddedContainer");
+
+        if ($embeddedContainer.is(':hidden')) {
+            $embeddedContainer.html(embeddedCode);
+            $embeddedContainer.show();
+        } else {
+            $embeddedContainer.empty();
+            $embeddedContainer.hide();
+        }
+    });
 });
