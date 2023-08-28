@@ -132,25 +132,26 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    if (currentScreenWidth < 460) {
-    var embeddedCode4 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/Bv1h1vL"  >
-        <a href="//imgur.com/a/Bv1h1vL">Stockage</a>
-    </blockquote>
-    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-    `;
-    }
-    else {
-        var embeddedCode4 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq">
-        <a href="//imgur.com/a/1e5FXBq">Stockage</a>
-    </blockquote>
-    <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-    `;
-    }
-
     $("#openPopupButton4").click(function() {
         var $embeddedContainer4 = $("#embeddedContainer4");
+        var currentScreenWidth = window.innerWidth;
+
+        var embeddedCode4 = '';
+        if (currentScreenWidth < 460) {
+            embeddedCode4 = `
+                <blockquote class="imgur-embed-pub" lang="en" data-id="a/Bv1h1vL">
+                    <a href="//imgur.com/a/Bv1h1vL">Stockage</a>
+                </blockquote>
+                <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+            `;
+        } else {
+            embeddedCode4 = `
+                <blockquote class="imgur-embed-pub" lang="en" data-id="a/1e5FXBq">
+                    <a href="//imgur.com/a/1e5FXBq">Stockage</a>
+                </blockquote>
+                <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+            `;
+        }
 
         if ($embeddedContainer4.is(':hidden')) {
             $embeddedContainer4.html(embeddedCode4);
