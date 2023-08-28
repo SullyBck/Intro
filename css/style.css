@@ -1668,8 +1668,6 @@ margin:10px;
 
 #embeddedContainer {
   display: none;
-  width: 300px; /* Définir la largeur souhaitée */
+  width: 90%; /* Définir la largeur souhaitée */
   height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
-  max-height: 400px; /* Limiter la hauteur maximale si nécessaire */
-  overflow: hidden; /* Masquer le contenu dépassant de la hauteur */
 }
