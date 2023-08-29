@@ -66,29 +66,13 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    var embeddedCode = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/MaVIYv7"  ><a href="//imgur.com/a/MaVIYv7">Montage de A à Z</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-    `;
 
-    $("#openPopupButton").click(function() {
-        var $embeddedContainer = $("#embeddedContainer");
-
-        if ($embeddedContainer.is(':hidden')) {
-            $embeddedContainer.html(embeddedCode);
-            $embeddedContainer.show();
-        } else {
-            $embeddedContainer.empty();
-            $embeddedContainer.hide();
-        }
-    });
-});
 
 
 $(document).ready(function() {
     var embeddedCode2 = `
     <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/ZJYZhRJpBgY"
+    src="https://www.youtube.com/embed/qHi9OTCYn0U"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -111,7 +95,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     var embeddedCode3 = `
     <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/YjoVTMW5G-w"
+    src="https://www.youtube.com/embed/8z5XhnyGY4E"
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -147,4 +131,15 @@ $(document).ready(function() {
             $embeddedContainer4.hide();
         }
     });
+});
+
+var imageCarousel = document.getElementById('imageCarousel');
+var openPopupButton = document.getElementById('openPopupButton');
+
+openPopupButton.addEventListener('click', function () {
+    if (imageCarousel.classList.contains('d-none')) {
+        imageCarousel.classList.remove('d-none');
+    } else {
+        imageCarousel.classList.add('d-none');
+    }
 });
