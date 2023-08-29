@@ -1075,6 +1075,7 @@
     width: 100%; /* Définir la largeur souhaitée */
     max-width: 315px;
     aspect-ratio: 9/16;
+    margin-bottom: -5%;
   }
   
   #embeddedContainer3 {
@@ -1082,6 +1083,7 @@
     width: 100%; /* Définir la largeur souhaitée */
     max-width: 315px;
     aspect-ratio: 9/16;
+    margin-bottom: -5%;
   }
   
   .custom-imgur-embed {
@@ -1096,6 +1098,15 @@
   .mt-8 {
     margin-top: 80px;
   }
+
+  #imageCarousel.carousel {
+    margin-bottom: 30px;
+}
+
+#imageCarousel4.carousel {
+    margin-bottom: 30px;
+}
+
 
   @media (max-width: 500px) {
     #imageCarousel.carousel {
