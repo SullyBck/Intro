@@ -115,24 +115,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function() {
-    var embeddedCode4 = `
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/Bv1h1vL"  ><a href="//imgur.com/a/Bv1h1vL">Stockage</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-    `;
-
-    $("#openPopupButton4").click(function() {
-        var $embeddedContainer4 = $("#embeddedContainer4");
-
-        if ($embeddedContainer4.is(':hidden')) {
-            $embeddedContainer4.html(embeddedCode4);
-            $embeddedContainer4.show();
-        } else {
-            $embeddedContainer4.empty();
-            $embeddedContainer4.hide();
-        }
-    });
-});
-
 var imageCarousel = document.getElementById('imageCarousel');
 var openPopupButton = document.getElementById('openPopupButton');
 
@@ -141,5 +123,16 @@ openPopupButton.addEventListener('click', function () {
         imageCarousel.classList.remove('d-none');
     } else {
         imageCarousel.classList.add('d-none');
+    }
+});
+
+var imageCarousel4 = document.getElementById('imageCarousel4');
+var openPopupButton4 = document.getElementById('openPopupButton4');
+
+openPopupButton4.addEventListener('click', function () {
+    if (imageCarousel4.classList.contains('d-none')) {
+        imageCarousel4.classList.remove('d-none');
+    } else {
+        imageCarousel4.classList.add('d-none');
     }
 });
