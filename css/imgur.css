@@ -1076,6 +1076,7 @@
     max-width: 315px;
     aspect-ratio: 9/16;
     margin-bottom: -5%;
+    margin-top: 2%;
   }
   
   #embeddedContainer3 {
@@ -1084,6 +1085,7 @@
     max-width: 315px;
     aspect-ratio: 9/16;
     margin-bottom: -5%;
+    margin-top: 2%;
   }
   
   .custom-imgur-embed {
@@ -1098,69 +1100,54 @@
   .mt-8 {
     margin-top: 80px;
   }
-
-  #imageCarousel.carousel {
-    margin-bottom: 30px;
+  
+.carousel {
+  width: 100%; /* Définir la largeur souhaitée */
+  max-width: 420px;
+  aspect-ratio: 3/4;
+  margin-bottom: 10%;
 }
 
-#imageCarousel4.carousel {
-    margin-bottom: 30px;
+@media (max-width: 500px) {
+  .carousel {
+      margin-bottom: -15%; /* Réduire l'espace en bas */
+  }
+  
 }
 
-
-  @media (max-width: 500px) {
-    #imageCarousel.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -100px; /* Réduire l'espace en bas */
-    }
-    #imageCarousel4.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -100px; /* Réduire l'espace en bas */
-    }
-    
-    .carousel-inner {
-        margin-bottom: -100px; /* Réduire l'espace en bas des diapositives */
-    }
-    
-    .carousel-caption {
-        margin-bottom: 0; /* Supprimer la marge en bas des légendes */
-    }
+@media (max-width: 450px) {
+  .carousel {
+      margin-bottom: -30%; /* Réduire l'espace en bas */
+  }
+  
 }
 
 @media (max-width: 400px) {
-    #imageCarousel.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -200px; /* Réduire l'espace en bas */
-    }
-    #imageCarousel4.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -200px; /* Réduire l'espace en bas */
-    }
-    
-    .carousel-inner {
-        margin-bottom: -200px; /* Réduire l'espace en bas des diapositives */
-    }
-    
-    .carousel-caption {
-        margin-bottom: 0; /* Supprimer la marge en bas des légendes */
-    }
+  .carousel {
+      margin-bottom: -60%; /* Réduire l'espace en bas */
+  }
+  
+}
+
+@media (max-width: 350px) {
+  .carousel {
+      margin-bottom: -100%; /* Réduire l'espace en bas */
+  }
+  
 }
 
 @media (max-width: 300px) {
-    #imageCarousel.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -300px; /* Réduire l'espace en bas */
-    }
-    #imageCarousel4.carousel {
-        max-width: 100%; /* Réduire la largeur du carousel */
-        margin-bottom: -300px; /* Réduire l'espace en bas */
-    }
-    
-    .carousel-inner {
-        margin-bottom: -300px; /* Réduire l'espace en bas des diapositives */
-    }
-    
-    .carousel-caption {
-        margin-bottom: 0; /* Supprimer la marge en bas des légendes */
-    }
+  .carousel {
+      margin-bottom: -150%; /* Réduire l'espace en bas */
+  }
+  
+}
+
+@media (min-width: 482px) and (max-width: 993px) {
+  .bot {
+    margin-bottom: 50px; /* Ajoutez la marge désirée ici */
+  }
+  .carousel {
+    margin-bottom: 10%; /* Réduire l'espace en bas */
+}
 }
