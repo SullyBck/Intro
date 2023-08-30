@@ -6,4 +6,4 @@ Mon site contient 5 pages :
 - vidéo, pour partager mes réalisations et présenter mon logiciel de montage,
 - informatique, pour montrer mes compétences en programmation et hardware,
 - cours, pour diffuser des fiches de maths niveau collège/lycée et de SES niveau terminale,
-- contact, pour permettre aux intéressés par mes compétences ou mon profil de me joindre.
+- contact, pour permettre aux personnes intéressées par mes compétences ou par mon profil de me joindre.
