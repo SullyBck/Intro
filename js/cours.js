@@ -1,7 +1,8 @@
 const pdf1 = document.getElementById('pdf1');
 
 function changePDF(newPDFPath) {
-    pdf1.setAttribute('data', newPDFPath);
+    const newPDFUrl = `https://drive.google.com/file/d/${newPDFPath}/preview`;
+    pdf.src = newPDFUrl;
 }
 
 const tabs = document.querySelectorAll('.tab');
