@@ -651,7 +651,7 @@ strong {
   overflow: hidden;
   margin-top: 24px;
   margin-bottom: 24px;
-  padding: 40px;
+  padding: 20px;
   transition: all ease 0.5s;
 }
 
@@ -679,7 +679,7 @@ strong {
 }
 
 .exp-title {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .exp-tag {

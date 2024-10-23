@@ -1,5 +1,5 @@
-const modals = [document.getElementById('myModal1'), document.getElementById('myModal2'), document.getElementById('myModal3')];
-const buttons = [document.getElementById('myBtn1'), document.getElementById('myBtn2'), document.getElementById('myBtn3')];
+const modals = [document.getElementById('myModal1'), document.getElementById('myModal2'), document.getElementById('myModal3'), document.getElementById('myModal4')];
+const buttons = [document.getElementById('myBtn1'), document.getElementById('myBtn2'), document.getElementById('myBtn3'), document.getElementById('myBtn4')];
 const spans = document.getElementsByClassName('close');
 
 window.onclick = event => {
